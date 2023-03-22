@@ -14,14 +14,14 @@ const Navbar = () => {
                         <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <Link to='/' className="nav-link fw-bold" aria-current="page" href="#">Home</Link>
-                            </li> 
+                            </li>
                             <li className="nav-item">
                                 <Link to='/appointment' className="nav-link fw-bold" aria-current="page" href="#">Appoinment</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to='/about' className="nav-link fw-bold" aria-current="page" href="#">About</Link>
                             </li>
-                           
+
                             <li className="nav-item">
                                 <Link to='/review' className="nav-link fw-bold" aria-current="page" href="#">Review</Link>
                             </li>
@@ -30,10 +30,9 @@ const Navbar = () => {
                             </li>
 
                         </ul>
-                        <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                        <div>
+                            <button className="btn btn-primari" >Login</button>
+                        </div>
                     </div>
                 </div>
             </nav>

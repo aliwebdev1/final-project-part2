@@ -4,23 +4,25 @@
     border-radius: 18px;
     text-align: center;
 }
-.primari {
-    color: #19D3AE !important;
-}
-
-.bg-primari {
-    background: linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%);
-    border-radius: 8px;
-}
 
 .btn-primari {
     background: linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%);
     border-radius: 8px;
-    font-weight: 600;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
+    text-transform: uppercase;
     color: #FFFFFF !important;
+
+}
+
+
+.bg-primari {
+    background: #19D3AE;
+}
+
+.text-primari {
+    color: #19D3AE;
 }

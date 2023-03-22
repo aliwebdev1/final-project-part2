@@ -1,11 +1,12 @@
-import chair from '../../../assets/images/chair.png'
+import { format } from 'date-fns';
 import { DayPicker } from 'react-day-picker';
-import appoinmentBanner from '../../../assets/images/bg.png'
+import chair from '../../../assets/images/chair.png'
 
 const AppointmentBanner = ({ selectedDate, setSelectedDate }) => {
 
+
     return (
-        <div style={{ background: `url(${appoinmentBanner})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='my-5 py-5'>
+        <div className='my-5 py-5'>
             <div className="row align-items-center">
                 <div className="col-12 col-md-6 text-gray pe-md-5">
                     <DayPicker

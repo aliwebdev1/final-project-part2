@@ -4,11 +4,11 @@ const InfoCard = ({ card }) => {
     const { name, des, icon, bgClass } = card
     return (
         <div className="col">
-            <div class={`${bgClass} p-4 rounded d-flex`}>
+            <div className={`${bgClass} p-4 rounded d-flex`}>
                 <img src={icon} alt="..." />
-                <div class="card-body ms-3 text-white">
-                    <h5 class="card-title">{name}</h5>
-                    <p class="card-text">{des}</p>
+                <div className="card-body ms-3 text-white">
+                    <h5 className="card-title">{name}</h5>
+                    <p className="card-text">{des}</p>
                 </div>
             </div>
         </div>

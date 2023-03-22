@@ -35,7 +35,7 @@ const Testmonial = () => {
         <div className='my-5 py-5'>
             <div className='d-flex justify-content-between align-items-center'>
                 <div>
-                    <h4 className='primari'>Testmonial</h4>
+                    <h4 className='text-primari'>Testmonial</h4>
                     <h2 className='text-secondary'>What Our Patients Says</h2>
                 </div>
                 <div className=''>

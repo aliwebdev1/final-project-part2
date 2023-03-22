@@ -4,9 +4,9 @@ const Review = ({ review }) => {
     const { name, image, location, reviewText } = review;
     return (
         <div className="col">
-            <div class="service mt-5 rounded p-3">
-                <div class="card-body">
-                    <p class="card-text my-3 text-start">{reviewText}</p>
+            <div className="service mt-5 rounded p-3">
+                <div className="card-body">
+                    <p className="card-text my-3 text-start">{reviewText}</p>
                 </div>
                 <div className='d-flex align-items-center mt-3'>
                     <img className='border rounded-circle border-success' src={image} alt="" />

@@ -29,7 +29,7 @@ const Services = () => {
     return (
         <div className='my-5 py-5'>
             <div className='text-center'>
-                <h4 className='primari'>OUR SERVICES</h4>
+                <h4 className='text-primari'>OUR SERVICES</h4>
                 <h2 className='text-secondary'>Services We Provide</h2>
             </div>
 
